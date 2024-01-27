@@ -94,8 +94,8 @@ public class Employee {
             employee.name = email;
             return this;
         }
-        public EmployeeBuilder setCardNumber(String cardNumber){
-            employee.name = cardNumber;
+        public EmployeeBuilder setCarNumber(String carNumber){
+            employee.name = carNumber;
             return this;
         }
         public Employee build(){
