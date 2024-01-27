@@ -21,7 +21,6 @@ public class H2ConnectionFactory implements ConnectionFactory {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        String driver = properties.getProperty("jdbc_driver");
         String url = properties.getProperty("db_url");
         String user = properties.getProperty("user");
         String password = properties.getProperty("password");
